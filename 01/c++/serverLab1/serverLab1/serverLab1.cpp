@@ -108,7 +108,7 @@ void gen_response(const Request& req, Response& res) {
         auto temp = cache["hourly"][item];
 
         if (!templateFile.is_open()) {
-            std::cout << "Не удалось открыть файл шаблона виджета.";
+            std::cout << "Не удалось открыть файл шаблона виджета";
         }
         else {
             
